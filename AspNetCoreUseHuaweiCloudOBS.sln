@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreUseHuaweiCloudOBS", "AspNetCoreUseHuaweiCloudOBS\AspNetCoreUseHuaweiCloudOBS.csproj", "{15EF5266-0EC4-4FF6-A10B-CC3130628179}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EF5266-0EC4-4FF6-A10B-CC3130628179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EF5266-0EC4-4FF6-A10B-CC3130628179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EF5266-0EC4-4FF6-A10B-CC3130628179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EF5266-0EC4-4FF6-A10B-CC3130628179}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4498F17B-3AEC-4DBC-8EB6-74D89A942175}
+	EndGlobalSection
+EndGlobal
