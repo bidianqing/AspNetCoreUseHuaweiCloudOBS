@@ -27,7 +27,11 @@ namespace AspNetCoreUseHuaweiCloudOBS.Controllers
                     ObjectKey = $"{DateTime.Now.Year}/{DateTime.Now.Month}/{Guid.NewGuid()}{Path.GetExtension(file.FileName)}",
                     ContentType = file.ContentType,
                     ContentDisposition = file.ContentDisposition,
-                    InputStream = file.OpenReadStream()
+                    InputStream = file.OpenReadStream(),
+                    UploadProgress = (sender, e) =>
+                    {
+                        Console.WriteLine($"Progress: {e.TransferredBytes * 100 / e.TotalBytes}%");
+                    }
                 };
                 var res = _obsClient.PutObject(request);
                 await request.InputStream.FlushAsync();
